@@ -1,0 +1,23 @@
+.mandala{
+    background-color: beige;
+    width: 1350px;
+    height: 70px;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color:#6515c5 ;
+}
+.tarjeta{
+    background-color:#CDFCF6 ;
+    width: 500px;
+    height: 400px;
+   
+}
+
+
+body {
+    background-color: #B1AFFF;
+    
+}
