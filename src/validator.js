@@ -34,9 +34,10 @@ const validator = {
                 
             }
         }
-        let resultado = arrayB.reduce((acc, el) => acc + el, 0) 
+        let resultado = arrayB.reduce((acc, el) => acc + el, 0) // se utiliza la funcion de reduce para realizar la suma de todos los valores que se encuentran
+        // en el arrayB por medio de un acumulador dandole la indicacion que tiene que comenzar desde la posicion 0 del array
        
-        if (resultado % 10 === 0) {
+        if (resultado % 10 === 0) { // se crea una condicion if para determinar si la tarjeta es valida o no 
             return true
         }
         else {

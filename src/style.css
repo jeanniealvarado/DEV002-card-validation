@@ -1,6 +1,6 @@
 .mandala{
     background-color: beige;
-    width: 1350px;
+    width: 1300px;
     height: 70px;
     margin: 10px;
 }
@@ -8,17 +8,21 @@ h2{
     text-align: center;
     font-size: xx-large;
     color:#6515c5 ;
+    font-style: oblique;
+    
 }
 .tarjeta{
-    background-color:#CDFCF6 ;
+    background-color: beige ;
     width: 500px;
     height: 400px;
-   
+    position: relative;
+    top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 body {
-    background-color: #B1AFFF;
+    background-color: #dcdcf1;
     
 }
 input {
@@ -33,4 +37,31 @@ button {
     background-color: rgb(227, 236, 101);
     padding: 10px 25px;
 
+}
+.descuento {
+    background-color: rgb(255, 246, 127);
+    width: 1300px;
+    height: 110px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 425px;
+    left: 10px;
+}
+.parrafo{
+    color:#f0f8a9;
+    text-shadow: 0 0 10px #054169, 0 0 10px #054169;
+}
+.neon{
+    color:#f0f8a9;
+    text-shadow: 0 0 10px #054169, 0 0 10px #054169; 
+    
+    
+}
+#fondo {
+    height: 130px; ;
+    width:500 ;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/607/541/large_2x/happy-party-birthday-background-with-realistic-balloons-illustration-free-vector.jpg);
 }
