@@ -21,3 +21,16 @@ body {
     background-color: #B1AFFF;
     
 }
+input {
+    border: 0cm;
+    border-radius: 30px;
+    border-color: mediumspringgreen;
+    width: 200px;
+}
+button {
+    border: 30px;
+    border-radius: 30px;
+    background-color: rgb(227, 236, 101);
+    padding: 10px 25px;
+
+}
